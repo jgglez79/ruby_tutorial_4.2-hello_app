@@ -42,6 +42,10 @@ group :development, :test do
   
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'  
+
+  #
+  gem 'rubocop'
+  gem 'rubocop-checkstyle_formatter', require: false
 end
 
 group :production do
